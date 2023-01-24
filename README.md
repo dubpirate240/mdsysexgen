@@ -5,7 +5,7 @@ The Elektron Machinedrum takes in Sysex messages formatted as:
 ```$f0,$00,$20,$3c,$02,$00,command,...,$f7```
 To set the tempo, the computer expects the ```command``` portion to read...
 ```
-$61 | Set tempo ID
+$61 | Set tempo command ID
 %0aaaaaaa | Upper bits
 %0bbbbbbb | Lower bits
 $f7 | SYSEX end
